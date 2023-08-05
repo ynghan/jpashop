@@ -43,7 +43,7 @@ public class InitDb {
             Member member = new Member();
 
 
-            member.createMember("userB", "서울", "1", "11111");
+            member.createMember("userA", "서울", "1", "11111");
             em.persist(member);
 
             Book book1 = new Book();
